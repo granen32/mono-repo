@@ -1,8 +1,15 @@
 "use client";
 
+import CommonButton from "@/app/components/common/CommonButton";
+
 const page = () => {
+  const onClick = () => {
+    console.log('click')
+  }
   return (
-    <div>page</div>
+    <div>
+      <CommonButton text='button' color='primary' onClick={onClick}/>
+    </div>
   )
 }
 
