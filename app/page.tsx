@@ -1,7 +1,7 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
-import Login from "@/app/components/common/login/Login";
+import Login from "@/app/components/common/Login";
 
 export const metadata: Metadata = {
   title: "leferi default title",

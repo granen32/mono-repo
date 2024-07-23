@@ -1,6 +1,6 @@
 "use client";
 
-import CommonButton from "@/app/components/common/button/CommonButton";
+import CommonButton from "@/app/components/common/CommonButton";
 
 const page = () => {
   const onClick = () => {
