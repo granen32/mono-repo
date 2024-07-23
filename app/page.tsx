@@ -1,6 +1,7 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
+import Login from "@/app/components/common/login/Login";
 
 export const metadata: Metadata = {
   title: "leferi default title",
@@ -8,5 +9,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <main><Link href="/test">test</Link></main>;
+  return <main><Login/></main>;
 }
