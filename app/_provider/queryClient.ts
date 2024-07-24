@@ -51,3 +51,7 @@ export const restFetcher = async ({
     console.error(error);
   }
 };
+
+export const QueryKeys = {
+  SEARCH: "SEARCH",
+};

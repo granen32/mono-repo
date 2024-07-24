@@ -1,3 +1,5 @@
+import { ChangeEvent } from "react";
+
 type CommonButtonProps = {
   onClick: () => void;
   text:string;
@@ -5,4 +7,16 @@ type CommonButtonProps = {
   color:'inherit' | 'primary' | 'secondary' | 'success' | 'error' | 'info' | 'warning';
 };
 
-export type { CommonButtonProps };
+type SearchState = {
+  query: string;
+  results: any[];
+  setQuery: (query: string) => void;
+  setResults: (results: any[]) => void;
+}
+
+type CustomInputProps = {
+  placeholder: string;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+}
+
+export type { CommonButtonProps,SearchState,CustomInputProps };
